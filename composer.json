@@ -1,0 +1,23 @@
+{
+  "name": "jsto/youtrack_api_client_php",
+  "description": "PHP Client for Youtrack API.",
+  "license": "GNU GPL v2.0",
+  "homepage": "https://github.com/jsto/youtrack_api_client_php",
+  "authors": [
+    {
+      "name": "Jan Stolle",
+      "email": "janstolle@me.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "3.7.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Youtrack\\API\\": "src/Youtrack/API"
+    }
+  }
+}
